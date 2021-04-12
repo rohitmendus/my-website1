@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	font-size: 1.25em;
+}
+
+.header-container{
+	width: 100%;
+	height: 600px;
+	background-image: url(Images/bg.jfif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.25);
+	background-blend-mode: multiply;
+}
+
+.navigation a{
+	text-decoration: none;
+	color: white;
+	font-weight: 900;
+	font-size: 1.4em;
+}
+
+.navigation{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navigation li{
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 15px;
+}
+
+.navigation li:hover{
+	background-color: rgba(255, 255, 255, 0.25);
+	border-bottom: 3px solid white;
+	border-bottom-height: 50px;
+	transition: border-bottom-height, border-bottom, background-color 500ms ease-in-out;
+}	
+
+.selected{
+	border-bottom: 3px solid white;
+	border-bottom-height: 50px;
+}
+
+.main-header{
+	text-align: center;
+	color: white;
+	border: 5px solid white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	font-size: 3em;
+	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.25)
+}
+
+.about-me{
+	background-image: url(Images/about-me.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.3);
+	background-blend-mode: multiply;
+	color: white;
+	padding: 30px;
+}
+
+.heading{
+	text-align: right;
+	font-family: 'Itim', cursive;
+	font-size: 3.5em;
+	margin-right: 30px;
+	font-weight: 900;
+}
+
+.content{
+	font-family: 'Itim', cursive;
+	font-size: 1.5em;
+}
+
+.profile{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	float: left;
+	display: inline-block;
+	margin: 30px;
+}
+
+.footer{
+	background-image: url(Images/footer-index.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 1.5em;
+	color: white;
+	font-family: 'Itim', cursive;
+	text-align: right;
+	background-blend-mode: multiply;
+	padding: 15px 30px;
+}

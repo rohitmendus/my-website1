@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #1a1a1a;
+	font-size: 1.25em;
+	font-family: 'Roboto', sans-serif;
+}
+ .header-container{
+ 	background-color:#57ff71;
+ 	width: 100%;
+ 	height: 65px; 
+ 	text-align: right;
+ 	position: fixed; 
+  	top: 0; 
+  	width: 100%; 
+  	overflow: hidden;
+  	z-index: 1000;
+ }
+
+ .navigation a{
+ 	text-decoration: none;
+ 	font-size: 1.4em;
+ 	color: white;
+ }
+
+ .navigation li{
+ 	list-style-type: none;
+ 	display: inline-block;
+ 	padding: 15px 50px;
+ 	font-weight: 900;
+ }
+
+ .navigation li:hover{
+ 	background-color: rgba(255, 255, 255, 0.25);
+ 	border-bottom: 3px solid white;
+ 	border-bottom-width: 100%;
+ 	transition: background-color, border-bottom, 3px solid white 500ms ease-in-out;
+ }
+
+.my-dream{
+	margin: 30px;
+	background-color: #57ff71; 
+	margin-top:8%;
+	font-size: 1.5em;
+	padding: 30px;
+	color: white;
+}
+
+.my-dream *{
+	margin: 10px;
+}
+
+.my-dream img{
+	float: right;
+	margin: 5px 20px;
+	width: 60%;
+	height: 300px;
+}
+
+.my-dream p{
+	font-family: 'Itim', cursive;
+}
+
+.my-dream h1{
+	color: #1a1a1a;
+}
+
+.my-skills{
+	margin: 30px;
+	background-color: #57ff71;
+	font-size: 1.5em;
+	padding: 30px;
+}
+
+.my-skills h1{
+	text-align: center;
+}
+
+.my-skills ul{
+	margin-left: 30px;
+	color: white;
+	font-family: 'Itim', cursive;
+}
+
+.special-list{
+	list-style-image: url(Images/list.png);
+	list-style-position: inside;
+	font-size: 1.5em;
+}
+
+.special-list2{
+	list-style-image: url(Images/list2.png);
+	list-style-position: inside;
+	font-size: 1em;	 
+}
+
+.my-portfolio{
+	margin: 30px;
+	background-color: #57ff71;
+	font-size: 1.5em;
+	padding: 30px;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.my-portfolio img{
+	width: 400px;
+	height: 300px;
+	border: 25px outset rgb(240, 202, 2);
+}
+
+.my-portfolio img:hover{
+	transform: scale(1.5);
+}
+
+.images{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.images *{
+	margin: 15px;
+}
+
+.footer{
+	background-color: #57ff71; 
+	font-size: 1.5em;
+	color: white;
+	font-family: 'Itim', cursive;
+	text-align: right;
+	padding: 15px 30px;;
+}
